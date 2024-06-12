@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/faq"
+    tools:context=".fragment.FAQFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#6F00A6"
+        android:textSize="20sp"
+        android:text="Q.1)What is the App about?"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="The app is all about food details, providing you with comprehensive information on various cuisines and dishes. It covers everything you need to know before indulging in a meal, from nutritional facts to ingredient lists. Discover new recipes and cooking techniques, explore dietary preferences and restrictions, and find recommendations for restaurants and food establishments. Whether you're a food enthusiast or looking to make healthier choices, this app is your go-to resource for all things food-related."/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#6F00A6"
+        android:textSize="20sp"
+        android:text="Q.2)What is the Language used to build this app?"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="1.)Kotlin\n2.)XML"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#6F00A6"
+        android:textSize="20sp"
+        android:text="Q.3)Where is the data about the food coming from?"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="It is provide by a URL that holds a JSON object which was provide by Internshala"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#6F00A6"
+        android:textSize="20sp"
+        android:text="Q.4)What is the version of App?"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="1.0"/>
+
+
+</LinearLayout>

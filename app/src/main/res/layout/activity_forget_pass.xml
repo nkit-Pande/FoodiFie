@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/ic_foodfie_logo_background"
+    tools:context=".activity.ForgetPass">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="240dp"
+        android:src="@drawable/login"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:textAlignment="center"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="@string/enter_your_registered_mobile_number_and_email_below"
+        android:layout_marginBottom="30dp"/>
+
+    <EditText
+        android:id="@+id/etfpMobileNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_margin="10dp"
+        android:inputType="phone"
+        android:padding="5dp"
+        android:hint=" Mobile Number"
+        android:textColor="#979A9A"
+        android:textColorHint="#979A9A"
+        android:drawableLeft="@drawable/baseline_phone_android_24"/>
+
+    <EditText
+        android:id="@+id/etfpEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_margin="10dp"
+        android:padding="5dp"
+        android:inputType="textEmailAddress"
+        android:hint=" Email"
+        android:textColor="#979A9A"
+        android:textColorHint="#979A9A"
+        android:drawableLeft="@drawable/baseline_email_24"/>
+
+    <Button
+        android:id="@+id/btfpButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:textStyle="bold"
+        android:padding="5dp"
+        android:layout_margin="15dp"/>
+</LinearLayout>

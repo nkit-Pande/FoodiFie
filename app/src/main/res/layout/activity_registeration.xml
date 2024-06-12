@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/ic_foodfie_logo_background"
+    tools:context=".activity.RegisterationActivity">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"/>
+
+    <EditText
+        android:id="@+id/etRegisterName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:textColor="#979A9A"
+        android:maxLength="10"
+        android:maxLines="1"
+        android:textColorHint="#979A9A"
+        android:hint=" Name"
+        android:drawableLeft="@drawable/baseline_person_24"
+        android:padding="5dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"/>
+    <EditText
+        android:id="@+id/etRegisterEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:textColor="#979A9A"
+        android:inputType="textEmailAddress"
+        android:textColorHint="#979A9A"
+        android:hint=" Email Address"
+        android:drawableLeft="@drawable/baseline_email_24"
+        android:padding="5dp"
+        android:layout_margin="10dp"/>
+    <EditText
+        android:id="@+id/etRegisterMobileNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:textColor="#979A9A"
+        android:inputType="phone"
+        android:textColorHint="#979A9A"
+        android:hint=" Mobile Number"
+        android:drawableLeft="@drawable/baseline_phone_android_24"
+        android:padding="5dp"
+        android:layout_margin="10dp"/>
+    <EditText
+        android:id="@+id/etRegisterAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:textColor="#979A9A"
+        android:textColorHint="#979A9A"
+        android:hint=" Address"
+        android:maxLength="150"
+        android:maxLines="3"
+        android:drawableLeft="@drawable/baseline_location_on_24"
+        android:padding="5dp"
+        android:layout_margin="10dp"/>
+
+    <EditText
+        android:id="@+id/etRegisterPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:textColor="#979A9A"
+        android:inputType="textPassword"
+        android:textColorHint="#979A9A"
+        android:hint=" Password"
+        android:drawableLeft="@drawable/baseline_password_24"
+        android:padding="5dp"
+        android:layout_margin="10dp"/>
+    <EditText
+        android:id="@+id/etRegisterCPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:textColor="#979A9A"
+        android:inputType="textPassword"
+        android:textColorHint="#979A9A"
+        android:hint=" Confirm Password"
+        android:drawableLeft="@drawable/baseline_password_24"
+        android:padding="5dp"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:id="@+id/btRegistrationSignup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/purple_200"
+        android:text="Sign Up"
+        android:textColor="@color/white"
+        android:layout_margin="30dp"
+        android:padding="5dp"/>
+</LinearLayout>
